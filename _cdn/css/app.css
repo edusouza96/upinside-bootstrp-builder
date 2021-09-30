@@ -1,0 +1,13 @@
+.main_menu {
+    margin: 0;
+}
+
+.main_menu li{
+    margin: 4px 20px;
+    list-style: none;  /* remove o marcador */
+}
+
+.main_menu li {
+    padding: 4px 8px;
+    color: #fff;
+}
