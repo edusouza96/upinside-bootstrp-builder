@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="_cdn/css/app.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sequi praesentium delectus, quasi hic officiis molestiae dolore et velit in, quod porro illo, aut omnis iste dignissimos ipsum recusandae numquam?</td>
+                <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione aspernatur quam velit earum accusantium quaerat numquam dicta eum. Maxime in voluptate, reprehenderit delectus perspiciatis voluptas corporis expedita architecto quaerat itaque!</td>
+                <td><button class="btn btn-danger j_modal_btn" data-id="1" data-toggle="modal" data-target="#removerItem">Remover</button></td>
+              </tr>
+                <th scope="row">2</th>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sequi praesentium delectus, quasi hic officiis molestiae dolore et velit in, quod porro illo, aut omnis iste dignissimos ipsum recusandae numquam?</td>
+                <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione aspernatur quam velit earum accusantium quaerat numquam dicta eum. Maxime in voluptate, reprehenderit delectus perspiciatis voluptas corporis expedita architecto quaerat itaque!</td>
+                <td><button class="btn btn-danger j_modal_btn" data-id="2" data-toggle="modal" data-target="#removerItem">Remover</button></td>
+              </tr>
+                <th scope="row">3</th>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sequi praesentium delectus, quasi hic officiis molestiae dolore et velit in, quod porro illo, aut omnis iste dignissimos ipsum recusandae numquam?</td>
+                <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione aspernatur quam velit earum accusantium quaerat numquam dicta eum. Maxime in voluptate, reprehenderit delectus perspiciatis voluptas corporis expedita architecto quaerat itaque!</td>
+                <td><button class="btn btn-danger j_modal_btn" data-id="3" data-toggle="modal" data-target="#removerItem">Remover</button></td>
+              </tr>
+                <th scope="row">4</th>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sequi praesentium delectus, quasi hic officiis molestiae dolore et velit in, quod porro illo, aut omnis iste dignissimos ipsum recusandae numquam?</td>
+                <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione aspernatur quam velit earum accusantium quaerat numquam dicta eum. Maxime in voluptate, reprehenderit delectus perspiciatis voluptas corporis expedita architecto quaerat itaque!</td>
+                <td><button class="btn btn-danger j_modal_btn" data-id="4" data-toggle="modal" data-target="#removerItem">Remover</button></td>
+              </tr>
+            </tbody>
+          </table>
+        
+        </div>
+        
+        <div class="modal fade" id="modalRemove" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Remover Artigo</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Tem certeza de que deseja remover o artigo <span class="j_param_id"></span> ?
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-danger">Remover</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="_cdn/js/jquery-3.4.1.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script>
+      $(function(){
+        $('.j_modal_btn').click(function(){
+          var id = $(this).data('id');
+
+          $('.j_param_id').text(id);
+
+          $('#modalRemove').modal();
+        });
+      });
+    </script>
+  </body>
+</html>
