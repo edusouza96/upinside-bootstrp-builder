@@ -1,5 +1,11 @@
 @import "variables";
 @import "addons/font-icon";
 @import "addons/font-icon-reset";
+@import "addons/bootstrap-select";
 @import "theme/header";
 @import "page/home";
+
+
+*, *:before, *:after {
+    outline: none;
+}

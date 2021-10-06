@@ -1,0 +1,18 @@
+@import "../../../node_modules/bootstrap-select/sass/bootstrap-select";
+
+.dropdown-item.active, .dropdown-item:active{
+    background-color: $color-front-default;
+}
+
+.bootstrap-select > select.mobile-device:focus + .dropdown-toggle, .bootstrap-select .dropdown-toggle:focus {
+    outline: none !important;
+}
+
+// caso esta classe não possuir as classes col- ou form-control ou input-group-btn ele aplica o estilo abaixo
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+    width: 100%;
+}
+
+.bootstrap-select.show-tick .dropdown-menu .selected span.check-mark {
+    color: $color-front-default;
+}
