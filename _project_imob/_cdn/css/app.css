@@ -2399,4 +2399,20 @@
   font-size: 0.8em;
 }
 
+.main_slide {
+  background-image: url("../../assets/images/front1.jpg");
+  background-position: center 65%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 532px;
+}
+.main_slide .main_slide_content {
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-weight: 100;
+  color: #fff;
+}
+
 /*# sourceMappingURL=app.css.map */
