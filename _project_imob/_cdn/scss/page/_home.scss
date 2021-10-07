@@ -14,3 +14,37 @@
         color: #fff;
     }
 }
+
+.main_list_group {
+    .main_list_group_items {
+        .main_list_group_items_item {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            a {
+                flex-basis: 100%;
+                min-height: 200px;
+                color: #fff;
+                font-size: 1.2em;
+                transition: 0.2s;
+                
+                &:hover {
+                    text-decoration: none;
+                    font-size: 1.3em;
+                }
+             
+                div {
+                    flex-basis: 100%;
+                    min-height: 200px;
+
+                    h2 {
+                        color: #fff;
+                        font-size: 1.2em;
+                    }
+                }
+            }
+
+        }
+    }
+}
