@@ -15,18 +15,18 @@
     <header class="main_header">
         <div class="header_bar bg-front">
             <div class="container">
-                <div class="row">
-                    <div class="col-4 d-flex justify-content-center align-items-center p-2 text-white">
+                <div class="row justify-content-around">
+                    <div class="d-none d-lg-flex col-lg-4 justify-content-center align-items-center p-2 text-white">
                         <i class="icon-location-arrow"></i>
                         <p class="my-auto ml-3">Avenida Pequeno Principe, 0 Campeche <br>Florianópolis/SC</p>
                     </div>
 
-                    <div class="col-4 d-flex justify-content-center align-items-center p-2 text-white">
+                    <div class="d-none d-md-flex col-md-6 col-lg-4 justify-content-center align-items-center p-2 text-white">
                         <i class="icon-clock-o"></i>
                         <p class="my-auto ml-3">Seg/Sex: 09h00h - 18:00h <br>Sáb/Dom: Plantão</p>
                     </div>
 
-                    <div class="col-4 d-flex justify-content-center align-items-center p-2 text-white">
+                    <div class="d-flex col-4 col-md-6 col-lg-4 justify-content-center align-items-center p-2 text-white">
                         <i class="icon-envelope"></i>
                         <p class="my-auto ml-3">contato@upinside.com.br<br>+55 (48) 3322-1234</p>
                     </div>
@@ -97,7 +97,7 @@
     <section class="main_footer bg-light" style="background: url(assets/images/footer.png) repeat-x bottom center; background-size: 10%;">
         <div class="container pt-5" style="padding-bottom: 120px;">
             <div class="row justify-content-around text-muted">
-                <div class="col-3">
+                <div class="col-12 col-md-3 col-lg-3">
                     <h1 class="pb-2">Navegue <span class="text-front">Aqui!</span></h1>
                     <ul>
                         <li><a href="">Home</a></li>
@@ -108,7 +108,7 @@
                     </ul>
                 </div>
 
-                <div class="col-6">
+                <div class="col-12 col-md-9 col-lg-6">
                     <h1 class="pb-2">Nos <span class="text-front">Conheça!</span></h1>
                     <p>Nosa maior satisfação é lhe ajudar a encontrar seu imóvel dos sonhos nos bairros do Sul da ilha da Magia, em Florianópolis.</p>
                     
@@ -116,7 +116,7 @@
                     <p>Entre em contato com a nossa equipe e vamos lhe informar sempre os melhores negócios.</p>
                 </div>
 
-                <div class="col-3">
+                <div class="col-12 col-md-12 col-lg-3 text-center">
                     <button class="btn btn-front icon-facebook icon-notext"></button>
                     <button class="btn btn-front icon-twitter icon-notext"></button>
                     <button class="btn btn-front icon-instagram icon-notext"></button>
