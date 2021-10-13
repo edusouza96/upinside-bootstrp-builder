@@ -5,8 +5,9 @@
 @import "theme/header";
 @import "page/home";
 @import "fold/list-properties";
+@import "fold/optin";
 
 
 *, *:before, *:after {
-    outline: none;
+    outline: none !important;
 }

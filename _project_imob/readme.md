@@ -4,3 +4,4 @@ Modulo 4 - Aula 4
 Modulo 4 - Aula 5
 Modulo 4 - Aula 6
 Modulo 4 - Aula 7
+Modulo 4 - Aula 8

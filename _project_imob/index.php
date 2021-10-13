@@ -73,6 +73,27 @@
         }
     ?>
 
+    <article class="main_optin bg-dark text-white py-5">
+        <div class="container">
+            <div class="row mx-auto" style="max-width: 600px;">
+                <h1>Quer ficar por dentro das novidades</h1>
+
+                <p>
+                    Deixe o seu nome e seu melhor e-mail no campos abaixo e nós vamos lhe informar sobre os melhores 
+                    negócios e todos os lançamentos do sul da Ilha
+                </p>
+
+                <form action="">
+                    
+                    <input type="text" name="" placeholder="Digite seu nome" size="50" class="form-control">
+                    <input type="email" name="" placeholder="Digite o seu melhor e-mail" size="50" class="form-control">
+                    
+                    <button type="submit" class="btn btn-front">Me avise!</button>
+                </form>
+            </div>
+        </div>
+    </article>
+
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="node_modules/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
