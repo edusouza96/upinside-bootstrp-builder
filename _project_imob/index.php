@@ -50,11 +50,11 @@
     
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link text-front" href="#">Destaque</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Alugar</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Comprar</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.php?app=home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-front" href="index.php?app=property">Destaque</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.php?app=filtro">Alugar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.php?app=filtro">Comprar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.php?app=contato">Contato</a></li>
                     </ul>
                 </div>
             </div>

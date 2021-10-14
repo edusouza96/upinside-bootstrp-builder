@@ -9,7 +9,7 @@
     <div class="main_property_content py-5">
         <div class="container">
             <div class="row">
-                <div class="col-8">
+                <div class="col-12 col-lg-8">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -37,9 +37,9 @@
                         </a>
                     </div>
 
-                    <div class="main_property_content_price">
-                        <p>IPTU: R$ 100,00</p>
-                        <p>Valor do aluguel: R$ 2.300,00/mês</p>
+                    <div class="main_property_content_price text-muted pt-4">
+                        <p class="main_property_content_price_small">IPTU: R$ 100,00</p>
+                        <p class="main_property_content_price_big">Valor do aluguel: R$ 2.300,00/mês</p>
                     </div>
 
                     <div class="main_property_content_description">
@@ -77,10 +77,13 @@
 
                     <div class="main_property_content_structure">
                         <h2 class="text-front">Estrutura</h2>
-                        <button class="main_property_content_structure_item icon-check">Churrasqueira</button>
-                        <button class="main_property_content_structure_item icon-check">Biblioteca</button>
-                        <button class="main_property_content_structure_item icon-check">Ar condicionado</button>
-                        <button class="main_property_content_structure_item icon-check">Escritório</button>
+
+                        <div class="row">
+                            <span class="main_property_content_structure_item icon-check">Churrasqueira</span>
+                            <span class="main_property_content_structure_item icon-check">Biblioteca</span>
+                            <span class="main_property_content_structure_item icon-check">Ar condicionado</span>
+                            <span class="main_property_content_structure_item icon-check">Escritório</span>
+                        </div>
                     </div>
                     
                     <div class="main_property_content_location">
@@ -89,10 +92,11 @@
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <a href="" class="btn btn-outline-success btn-lg btn-block icon-whatsapp">Converse com um corretor</a>
+                <div class="col-12 col-lg-4">
+                    <a href="" class="btn btn-outline-success btn-lg btn-block icon-whatsapp mb-3">Converse com um corretor</a>
 
                     <div class="main_property_contact">
+                        <h2 class="bg-front text-white">Entre em contato</h2>
                         <form action="">
                             <div class="form-group">
                                 <label for="">Seu nome:</label>
@@ -112,13 +116,13 @@
                             </div>
                             <div class="form-group">
                                 <button class="btn btn-front btn-block" type="submit">Enviar</button>
-                                <p>
+                                <p class="text-center text-front font-weight-bold mt-4 mb-0">
                                     (48) 3322-1234
                                 </p>
                             </div>
                         </form>
                     </div>
-                    <div class="main_property_share">
+                    <div class="main_property_share mt-3 text-center">
                         <a href="" class="btn btn-front icon-facebook icon-notext"></a>
                         <a href="" class="btn btn-front icon-twitter icon-notext"></a>
                         <a href="" class="btn btn-front icon-instagram icon-notext"></a>
