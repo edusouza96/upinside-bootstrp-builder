@@ -13,6 +13,13 @@
 @import "fold/list-properties";
 @import "fold/optin";
 
+.carousel-item{
+    img{
+        height: 450px;
+        
+    }
+}
+
 
 *, *:before, *:after {
     outline: none !important;

@@ -2937,6 +2937,10 @@ select.selectpicker {
   width: 100%;
 }
 
+.carousel-item img {
+  height: 450px;
+}
+
 *, *:before, *:after {
   outline: none !important;
 }
